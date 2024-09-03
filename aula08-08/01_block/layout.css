@@ -1,0 +1,68 @@
+body{
+    background-color: darkred;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.grande{
+    width: 80%;
+}
+header{
+    width: 100%;
+    height: 400px;
+    display: block;
+    float: left;
+    color: white;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/FIA_F1_Austria_2022_Nr._16_Leclerc.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    background-size: 100%;
+}
+header .imagem{
+    width: 100%;
+    height: 400px;
+    margin-top: -100px;
+}
+
+
+main{
+    width: 100%;
+    height: 850px;
+    display: block;
+    float: left;
+    border-image-width: 450px;
+    color: white
+}
+footer{
+    width: 100%;
+    height: 350px;
+    display: block;
+    float: left;
+
+}
+
+footer section{
+    width: 33%;
+    height: 300px;
+    float: left;
+    display: block;
+    }
+footer section:first-child{
+}
+footer section:last-child{
+}
+footer section .imagem{
+    width: 300px;
+    height: 200px;
+
+}
+.mercedes{
+top: 100%;
+
+}
+.red bull{
+    padding: 100%;
+}
+

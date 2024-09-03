@@ -1,0 +1,44 @@
+#menu{
+    width: 100%;
+    display: block;
+    float: left;
+}
+#menu ul li {
+list-style-type: none;
+float: left;
+}
+#menu ul li a{
+background-color:aquamarine;
+padding: 10px;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(0, 0, 0);
+
+}
+#menu ul li a:hover{
+    background-color:rgb(223, 148, 10)
+}
+.bloco{
+    width: 50%;
+    height: auto;
+    display: block;
+    background-color: rgb(178, 139, 215);
+}
+.bloco img{
+width: 65%;
+margin: 5%;
+}
+.bloco p{
+width: 65%;
+margin-right: 5%;
+}
+.esq{
+float: left;
+}
+.dir{
+    float:right
+}
+.quebra{
+    clear: both;
+    margin-bottom: 30px;
+}
